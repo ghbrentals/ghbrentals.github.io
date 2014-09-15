@@ -1,4 +1,4 @@
-joshuablackstone.github.io
+ghbrentals.github.io
 ==========================
 
-Joshua Blackstone Homepage
+Properties for GHBRentals in Terre Haute, Indiana
