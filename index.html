@@ -22,6 +22,9 @@
             </div>
             <div class="navbar-collapse collapse" id="navbar-main">
                 <ul id="menu" class="nav navbar-nav">
+                    <li>
+                        <a href="">Contact Us</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -32,14 +35,137 @@
                 GHB Rentals
             </h1>
             <p>
-               Rental Properties in Terre Haute, Indiana
+                Available Rental Properties in Terre Haute, Indiana
             </p>
         </div>
         <div class="row">
             <div class="col-md-12">
-                <p>
-                    Coming Soon...
-                </p>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">2025 North 7th Street</h3>
+                    </div>
+                    <div class="panel-body">
+                        <h5>Address</h5>
+                        <p>
+                            2025 North 7th Street<br />
+                            Terre Haute, IN 47804
+                        </p>
+                        <h5>Description</h5>
+                        <p>
+                            Rent amount: $645.00/month plus $645.00 deposit at time of move in<br />
+                            4 bedroom house, shows well...<br />
+                            large, spacious kitchen with lots of cabinets, dining room, front porch<br />
+                            large walk-in closet<br />
+                            off-street parking<br />
+                            new roof<br />
+                            some appliances<br />
+                            storage shed 
+                        </p>
+                        <h5>Photos</h5>
+                        <div class="modal-photos">
+                            <div class="col-sm-6 col-md-3">
+                                <div class="thumbnail">
+                                    <img src="Images/Houses/20.JPG" />
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-3">
+                                <div class="thumbnail">
+                                    <img src="Images/Houses/21.JPG" />
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-3">
+                                <div class="thumbnail">
+                                    <img src="Images/Houses/1.JPG" />
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-3">
+                                <div class="thumbnail">
+                                    <img src="Images/Houses/2.JPG" />
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-3">
+                                <div class="thumbnail">
+                                    <img src="Images/Houses/3.JPG" />
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-3">
+                                <div class="thumbnail">
+                                    <img src="Images/Houses/4.JPG" />
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-3">
+                                <div class="thumbnail">
+                                    <img src="Images/Houses/5.JPG" />
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-3">
+                                <div class="thumbnail">
+                                    <img src="Images/Houses/6.JPG" />
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-3">
+                                <div class="thumbnail">
+                                    <img src="Images/Houses/7.JPG" />
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-3">
+                                <div class="thumbnail">
+                                    <img src="Images/Houses/8.JPG" />
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-3">
+                                <div class="thumbnail">
+                                    <img src="Images/Houses/9.JPG" />
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-3">
+                                <div class="thumbnail">
+                                    <img src="Images/Houses/10.JPG" />
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-3">
+                                <div class="thumbnail">
+                                    <img src="Images/Houses/11.JPG" />
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-3">
+                                <div class="thumbnail">
+                                    <img src="Images/Houses/13.JPG" />
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-3">
+                                <div class="thumbnail">
+                                    <img src="Images/Houses/14.JPG" />
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-3">
+                                <div class="thumbnail">
+                                    <img src="Images/Houses/15.JPG" />
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-3">
+                                <div class="thumbnail">
+                                    <img src="Images/Houses/16.JPG" />
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-3">
+                                <div class="thumbnail">
+                                    <img src="Images/Houses/17.JPG" />
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-3">
+                                <div class="thumbnail">
+                                    <img src="Images/Houses/18.JPG" />
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-3">
+                                <div class="thumbnail">
+                                    <img src="Images/Houses/19.JPG" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <hr />
@@ -47,7 +173,20 @@
             <p class="credits">&copy; <span id="currentYear"></span> - <a href="http://joshuablackstone.github.io" target="_blank">Joshua Blackstone</a>, All Rights Reserved</p>
         </footer>
     </div>
-
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img id="home-photo" />
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                    <button id="btnDownload" data-src="" type="button" class="btn btn-default"><span class="glyphicon glyphicon-download"></span> Download</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="/Scripts/jquery-2.0.3.min.js"></script>
     <script src="/Scripts/bootstrap.min.js"></script>
     <script src="/Scripts/bootbox.min.js"></script>
